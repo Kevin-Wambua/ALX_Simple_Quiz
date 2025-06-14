@@ -4,7 +4,7 @@ function checkAnswer() {
     const correctAnswer = "4";
 
     // step 3: Get the user's selected answer
-    const selectedOption = document.queryselector('input[name="quiz"]:checked');
+    const selectedOption = document.querySelector('input[name="quiz"]:checked');
 
     //if no option is selected
     if (!selectedOption) {
